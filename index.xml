@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Garden Fence on Garden Fence - Fediverse Blocklist</title>
+    <link>http://example.org/</link>
+    <description>Recent content in Garden Fence on Garden Fence - Fediverse Blocklist</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://example.org/about/</link>
+      <pubDate>Wed, 08 Feb 2023 00:00:00 +0900</pubDate>
+      
+      <guid>http://example.org/about/</guid>
+      <description>Created and maintained by @brook@sunny.garden
+This information on this site is provided on a best effort basis in the hope that others may find it useful, but without warranty of any kind. Use the information provided here at your own risk.
+THE website IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.</description>
+    </item>
+    
+  </channel>
+</rss>
