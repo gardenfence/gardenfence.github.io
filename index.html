@@ -232,18 +232,25 @@
 <h2 id="the-blocklist">The Blocklist</h2>
 <h3 id="downloadable-files-for-import">Downloadable Files for Import</h3>
 <ul>
-<li><a href="https://github.com/gardenfence/blocklist/blob/main/gardenfence.csv">gardenfence.csv</a></li>
+<li><a href="https://github.com/gardenfence/blocklist/blob/main/gardenfence-mastodon.csv">gardenfence-mastodon.csv</a> (Mastodon format)</li>
+<li><a href="https://github.com/gardenfence/blocklist/blob/main/gardenfence-fediblocksync.csv">gardenfence-fediblocksync.csv</a> (fediblock-sync format)</li>
 </ul>
-<p>The blocklist can be imported into Mastodon using the <strong>fediblock-sync</strong> tool from <a href="https://github.com/eigenmagic/fediblockhole">fediblockhole</a>. Please read the documentation and follow the instructions there for using the tool.</p>
+<dl>
+<dt><strong>Mastodon</strong></dt>
+<dd>As of version 4.1, blocklist files can be imported and exported from the admin interface, under <strong>Moderation &gt; Federation</strong>.</dd>
+<dt><strong>fediblock-sync</strong></dt>
+<dd>The comand line tool <strong>fediblock-sync</strong> available from <a href="https://github.com/eigenmagic/fediblockhole">fediblockhole</a> can be used to import blocklists from multiple sources, including remote servers, URLs, or local files.</dd>
+</dl>
 <h2 id="how-is-the-list-created">How is the list created?</h2>
+<p>The Garden Fence blocklist is generated with a python script:</p>
 <ul>
-<li>Block lists are fetched from reference servers</li>
-<li>Only <em>Suspend</em> level blocks are considered, <em>Limit/Silence</em> blocks are ignored.</li>
+<li>Block lists are fetched from each of the reference servers</li>
+<li><em>Suspend</em> level blocks are counted, <em>Limit/Silence</em> blocks are ignored</li>
 <li>Suspensions which are shared by <strong>at least 75% of reference servers</strong> are included in the list (5/7)*</li>
 <li>Tags are added by matching against the comments provided by the reference servers</li>
 <li>Servers which are believed to be offline are filtered out to reduce clutter</li>
 </ul>
-<p><em>* percentage not exact due to rounding</em></p>
+<p><em>* percentage is approximate due to rounding</em></p>
 <h3 id="reference-servers">Reference Servers</h3>
 <p>The admins of these servers have given permission for their block lists to be used for the purpose of generating this combined blocklist:</p>
 <ul>
