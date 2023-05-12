@@ -7,6 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://gardenfence.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Participation</title>
+      <link>https://gardenfence.github.io/participation/</link>
+      <pubDate>Fri, 12 May 2023 14:42:05 +0900</pubDate>
+      
+      <guid>https://gardenfence.github.io/participation/</guid>
+      <description>Participating Servers Participating servers agree to:
+Have their blocklists retrieved from their server for the purposes of creating this aggregate blocklist. Have their server name listed publicly as one of the reference servers used to generate this blocklist. Participation can be withdrawn at any time by notifying me.
+Requirements Curation Garden Fence is intended to represent an informal consensus by participation between a variety of admins / mods who have different approaches, but generally overlapping values, and proactively maintain their own respective blocklists.</description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>https://gardenfence.github.io/about/</link>
       <pubDate>Wed, 08 Feb 2023 00:00:00 +0900</pubDate>
