@@ -12,9 +12,8 @@
       <pubDate>Fri, 12 May 2023 14:42:05 +0900</pubDate>
       
       <guid>https://gardenfence.github.io/participation/</guid>
-      <description>Participating Servers Participating servers agree to:
-Have their blocklists retrieved from their server for the purposes of creating this aggregate blocklist. Have their server name listed publicly as one of the reference servers used to generate this blocklist. Participation can be withdrawn at any time by notifying me.
-Requirements Curation Garden Fence is intended to represent an informal consensus by participation between a variety of admins / mods who have different approaches, but generally overlapping values, and proactively maintain their own respective blocklists.</description>
+      <description>Reference Servers As of Sep. 2024, the reference server list is no longer published. This is primarily due to the time and effort required to find suitable reference servers that are also willing to be publicly listed as such, making it extremely difficult and time consuming to replace servers removed from the list.
+Blocks from reference servers are now only used to filter down the sunny.garden blocklist to include the most widely blocked &amp;ldquo;worst of the worst&amp;rdquo; domains.</description>
     </item>
     
     <item>

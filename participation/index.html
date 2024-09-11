@@ -29,7 +29,7 @@
 <meta itemprop="name" content="Participation">
 <meta itemprop="description" content="Criteria and requirements for servers participating as Garden Fence blocklist reference servers."><meta itemprop="datePublished" content="2023-05-12T14:42:05+09:00" />
 <meta itemprop="dateModified" content="2023-05-12T14:42:05+09:00" />
-<meta itemprop="wordCount" content="308">
+<meta itemprop="wordCount" content="117">
 <meta itemprop="keywords" content="" />
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
@@ -225,29 +225,10 @@
   <main>
 
 <content>
-  <h2 id="participating-servers">Participating Servers</h2>
-<p>Participating servers agree to:</p>
-<ul>
-<li>Have their blocklists retrieved from their server for the purposes of creating this aggregate blocklist.</li>
-<li>Have their server name listed publicly as one of the reference servers used to generate this blocklist.</li>
-</ul>
-<p>Participation can be withdrawn at any time by <a href="https://sunny.garden/@brook">notifying me</a>.</p>
-<h2 id="requirements">Requirements</h2>
-<h3 id="curation">Curation</h3>
-<p>Garden Fence is intended to represent an informal consensus by participation between a variety of admins / mods who have different approaches, but generally overlapping values, and proactively maintain their own respective blocklists.</p>
-<p>Garden Fence is not intended to aggregate other blocklists, so participating servers should maintain their blocks primarily through manual curation. This doesn&rsquo;t mean that participating servers can&rsquo;t refer to, or import, other blocklists at all, but it does mean they should be manually reviewing and validating each block that they put in place.</p>
-<p>The point after all, is that multiple admins/mods have manually reviewed each block on this list, and determined that suspending the offending server is warranted.</p>
-<h3 id="consensus--values">Consensus &amp; Values</h3>
-<p>In order to be considered for participation, a reference server should generally be blocking a majority of well known <em>worst-of-the-worst</em> servers, consistent with blocking the harmful content listed on the front page.</p>
-<p>Servers which do not already have many of these baseline blocks in place are likely not yet actively monitoring and blocking harmful content to the level needed to act as a useful reference for other admins.</p>
-<p>That said, there is no requirement that participating servers block any specific server or list of servers.</p>
-<h3 id="access">Access</h3>
-<p>Servers need to make their blocklists available for the gardenfence script to access. Servers which provide:</p>
-<ul>
-<li>public access to their blocklists: don&rsquo;t need to do anything special.</li>
-<li>user-only access to their blocklists: will need to provide an API key with empty scopes.</li>
-<li>admin-only access to their blocklists: will need to provide an API key with the <code>admin:read:domain_blocks</code> scope.</li>
-</ul>
+  <h2 id="reference-servers">Reference Servers</h2>
+<p>As of Sep. 2024, the reference server list is no longer published. This is primarily due to the time and effort required to find suitable reference servers that are also willing to be publicly listed as such, making it extremely difficult and time consuming to replace servers removed from the list.</p>
+<p>Blocks from reference servers are now only used to filter down the sunny.garden blocklist to include the most widely blocked &ldquo;worst of the worst&rdquo; domains. In practice, this has been the case since Nov. 2023, but it is now enforced as a requirement.</p>
+<p>Reference servers have public blocklists, operate relatively independently of each other, and are known to actively monitor and block problematic domains.</p>
 
 </content>
 <p>
